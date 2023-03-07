@@ -1,4 +1,36 @@
+/**
+ * Base styles
+ */
+html,
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
 main {
   max-width: 1024px;
   margin: 0 auto;
+}
+
+pre {
+  padding: 1rem;
+}
+
+code,
+.code {
+  background-color: #f8f8f8;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #ebebeb;
+}
+
+/**
+ * Utils
+ */
+.fz-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
