@@ -13,3 +13,12 @@
 I enjoy making web applications. Always learning new things but not forgetting about fundamentals. \
 Currently my main focus is on `JavaScript` and Frontend development in general. \
 I am also learning about Backend development and `Ruby` and `Ruby on Rails` to get more thorough understanding about how the Web works and get a taste of a different language.
+
+## Skills
+
+- JavaScript / TypeScript
+- React
+- CSS / SCSS / PostCSS / BEM
+- Git / GitHub
+- Docker
+- Figma / Photoshop
