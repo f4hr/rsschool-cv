@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ilya Fakhrutdinov - CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Ilya Fakhrutdinov - CV</h1>
+        <section>
+            <h2>Contacts</h2>
+            <ul>
+                <li>
+                    <b>Email:</b>
+                    <a href="mailto:ilyaf4hr@gmail.com" target="_blank">ilyaf4hr@gmail.com</a>
+                </li>
+                <li>
+                    <b>Telegram:</b>
+                    <a href="https://t.me/ilyaf4hr" target="_blank">@ilyaf4hr</a>
+                </li>
+                <li>
+                    <b>Location:</b> Ufa, Russia
+                </li>
+            </ul>
+        </section>
+        <hr>
+        <section>
+            <h2>About me</h2>
+            <p>Frontend Developer with 2 years of work experience as Web Developer in small local studio.</p>
+            <p>I enjoy making web applications. Always learning new things but not forgetting about fundamentals.</p>
+            <p>Currently my main focus is on <code>JavaScript</code> and Frontend development in general.</p>
+            <p>I am also learning about Backend development and <code>Ruby</code> and <code>Ruby on Rails</code> to get more thorough understanding about how the Web works and get a taste of a different language.</p>
+        </section>
+        <hr>
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li>JavaScript / TypeScript</li>
+                <li>React</li>
+                <li>CSS / SCSS / PostCSS / BEM</li>
+                <li>Git / GitHub</li>
+                <li>Docker</li>
+                <li>Figma / Photoshop</li>
+            </ul>
+        </section>
+        <hr>
+        <section>
+            <h2>Code Examples</h2>
+            <h3>Does my number look big in this?</h3>
+            <p>A Narcissistic Number (or Armstrong Number) is a positive number which is the sum of its own digits, each raised to the power of the number of digits in a given base.</p>
+            <p>Codewars Kata: <a href="https://www.codewars.com/kata/5287e858c6b5a9678200083c" target="_blank">https://www.codewars.com/kata/5287e858c6b5a9678200083c</a></p>
+            <pre class="code fz-sm"><code>
+export function narcissistic(value: number): boolean {
+  const digits = String(value).split('').map(Number);
+  return value === digits.reduce((sum, d) =&gt; sum + d ** digits.length, 0);
+}</code></pre>
+        </section>
+        <hr>
+        <section>
+            <h2>Personal Projects</h2>
+            <h3>Kanban</h3>
+            <p>SPA for working with kanban boards (similar to Trello)</p>
+            <p>GitHub: <a href="https://github.com/f4hr/kanban" target="_blank">https://github.com/f4hr/kanban</a></p>
+            <ul>
+                <li><b>Frontend:</b> TypeScript, React, Tanstack Query (React Query), Wouter, React Hook Form, React Beautiful DND</li>
+                <li><b>Backend:</b> TypeScript, Fastify, OpenAPI, MongoDB, Mikro-ORM</li>
+                <li><b>CI/CD:</b> GitHub + Dokku</li>
+            </ul>
+            <h3>Chat</h3>
+            <p>Real-time application built with React/Redux and websocket</p>
+            <p>GitHub: <a href="https://github.com/f4hr/frontend-project-lvl4" target="_blank">https://github.com/f4hr/frontend-project-lvl4</a></p>
+            <ul>
+                <li><b>Frontend:</b> JavaScript, React (Hooks), Redux (@reduxjs/toolkit), Formik, socket.io, REST API</li>
+                <li><b>Backend:</b> JavaScript, Fastify</li>
+                <li><b>CI/CD:</b> GitHub + Dokku</li>
+            </ul>
+        </section>
+        <hr>
+        <section>
+            <h2>Work Experience</h2>
+            <ul>
+                <li>
+                    <b>2018/10 - 2021/05</b> Web Developer at <i>Spacelab</i>, Ufa
+                    <ul>
+                        <li>Created 20+ websites (landing pages, corporate, ecommerce)</li>
+                        <li>Integrated websites with 3rd party API's (amoCRM, YooMoney)</li>
+                        <li>Done some basic DevOps (DNS, domains, hosting management)</li>
+                        <li>Built Telegram Bot with Trello integration for company's internal usage</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <hr>
+        <section>
+            <h2>Education / Courses</h2>
+            <ul>
+                <li><b>2021</b> Frontend Developer at <i>Hexlet</i></li>
+                <li><b>2018</b> Layout Designer at <i>HTML Academy</i></li>
+                <li><b>2011 - 2013</b> Application and Operation of Automated Systems at <i>USATU</i>, Ufa</li>
+            </ul>
+        </section>
+        <hr>
+        <section>
+            <h2>Languages</h2>
+            <ul>
+                <li><b>English:</b> B2</li>
+                <li><b>Russian:</b> Native</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
