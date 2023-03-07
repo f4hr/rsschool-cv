@@ -71,3 +71,8 @@ GitHub: [https://github.com/f4hr/frontend-project-lvl4](https://github.com/f4hr/
 - **2021** Frontend Developer at *Hexlet*
 - **2018** Layout Designer at *HTML Academy*
 - **2011 - 2013** Application and Operation of Automated Systems at *USATU*, Ufa
+
+## Languages
+
+- **English**: B2
+- **Russian**: Native
