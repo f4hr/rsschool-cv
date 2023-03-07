@@ -43,6 +43,20 @@
                 <li>Figma / Photoshop</li>
             </ul>
         </section>
+        <section>
+            <h2>Code Examples</h2>
+            <h3>Does my number look big in this?</h3>
+            <p>A Narcissistic Number (or Armstrong Number) is a positive number which is the sum of its own digits, each raised to the power of the number of digits in a given base.</p>
+            <p>Codewars Kata: <a href="https://www.codewars.com/kata/5287e858c6b5a9678200083c" target="_blank">https://www.codewars.com/kata/5287e858c6b5a9678200083c</a></p>
+            <pre>
+<code>
+export function narcissistic(value: number): boolean {
+  const digits = String(value).split('').map(Number);
+  return value === digits.reduce((sum, d) => sum + d ** digits.length, 0);
+}
+</code>
+            </pre>
+        </section>
     </main>
 </body>
 </html>
