@@ -37,3 +37,23 @@ export function narcissistic(value: number): boolean {
   return value === digits.reduce((sum, d) => sum + d ** digits.length, 0);
 }
 ```
+
+## Personal Projects
+
+### Kanban
+
+SPA for working with kanban boards (similar to Trello) \
+GitHub: [https://github.com/f4hr/kanban](https://github.com/f4hr/kanban)
+
+- **Frontend:** TypeScript, React, Tanstack Query (React Query), Wouter, React Hook Form, React Beautiful DND.
+- **Backend:** TypeScript, Fastify, OpenAPI, MongoDB, Mikro-ORM
+- **CI/CD:** GitHub + Dokku
+
+### Chat
+
+Real-time application built with React/Redux and websocket \
+GitHub: [https://github.com/f4hr/frontend-project-lvl4](https://github.com/f4hr/frontend-project-lvl4)
+
+- **Frontend:** JavaScript, React (Hooks), Redux (@reduxjs/toolkit), Formik, socket.io, REST API
+- **Backend:** JavaScript, Fastify
+- **CI/CD:** GitHub + Dokku
