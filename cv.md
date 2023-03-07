@@ -65,3 +65,9 @@ GitHub: [https://github.com/f4hr/frontend-project-lvl4](https://github.com/f4hr/
     - Integrated websites with 3rd party API's (amoCRM, YooMoney)
     - Done some basic DevOps (DNS, domains, hosting management)
     - Built Telegram Bot with Trello integration for company's internal usage
+
+## Education / Courses
+
+- **2021** Frontend Developer at *Hexlet*
+- **2018** Layout Designer at *HTML Academy*
+- **2011 - 2013** Application and Operation of Automated Systems at *USATU*, Ufa
