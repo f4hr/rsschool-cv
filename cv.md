@@ -22,3 +22,18 @@ I am also learning about Backend development and `Ruby` and `Ruby on Rails` to g
 - Git / GitHub
 - Docker
 - Figma / Photoshop
+
+## Code Examples
+
+### Does my number look big in this?
+
+> A Narcissistic Number (or Armstrong Number) is a positive number which is the sum of its own digits, each raised to the power of the number of digits in a given base.
+
+Codewars Kata: https://www.codewars.com/kata/5287e858c6b5a9678200083c
+
+```ts
+export function narcissistic(value: number): boolean {
+  const digits = String(value).split('').map(Number);
+  return value === digits.reduce((sum, d) => sum + d ** digits.length, 0);
+}
+```
