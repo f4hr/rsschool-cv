@@ -57,3 +57,11 @@ GitHub: [https://github.com/f4hr/frontend-project-lvl4](https://github.com/f4hr/
 - **Frontend:** JavaScript, React (Hooks), Redux (@reduxjs/toolkit), Formik, socket.io, REST API
 - **Backend:** JavaScript, Fastify
 - **CI/CD:** GitHub + Dokku
+
+## Work Experience
+
+- **2018/10 - 2021/05** Web Developer at *Spacelab*, Ufa
+    - Created 20+ websites (landing pages, corporate, ecommerce)
+    - Integrated websites with 3rd party API's (amoCRM, YooMoney)
+    - Done some basic DevOps (DNS, domains, hosting management)
+    - Built Telegram Bot with Trello integration for company's internal usage
